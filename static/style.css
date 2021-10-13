@@ -1,0 +1,146 @@
+h1 {
+    text-align:center;
+  }
+  
+footer {
+  margin-top: 20px;
+  padding: 10px, 0px, 5px, 0px;
+  text-align: center;
+  font-size: 8pt;
+}
+
+body{
+  align-content: center;
+}
+
+a {
+  color:rgb(64, 143, 247)
+}
+
+a.forgotpswrd:link {text-decoration:none;}
+a.forgotpswrd:hover {text-decoration:underline;}
+
+a.needhelp:link {text-decoration:none;}
+a.needhelp:hover {text-decoration:underline;}
+
+a.cond:link {text-decoration:none;}
+a.cond:hover {text-decoration:underline;}
+
+a.pri:link {text-decoration:none;}
+a.pri:hover {text-decoration:underline;}
+
+a.hp:link {text-decoration:none;}
+a.hp:hover {text-decoration:underline;}
+
+#continue {
+  background-color:rgb(247, 207, 100);
+  border-width: .5pt;
+  height:25px;
+  width: 100%;
+  margin-bottom: 5%;
+  position: center;
+  align: center;
+
+}
+
+.container{
+  border-color: rgb(199, 195, 195);
+  border-style: solid;
+  border-width: .25pt;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 36%;
+  margin-right: 25%;
+  padding-left: 3%;
+  padding-top: .1%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  width: 29%;
+  font-family: Calibri;
+}
+
+.signin {
+  margin-top: 2%;
+  font-family:sans-serif;
+}
+
+.firstinput {
+  width: 100%;
+  height: 20px;
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.secinput {
+  width: 100%;
+  height: 20px;
+  margin-top: 2%;
+}
+
+.sub {
+  width: 95%;
+  margin-bottom: 15%;
+}
+
+.need-help {
+  float: left;
+}
+
+.new {
+  font-family: sans-serif;
+  margin: 10px auto;
+  color: #8c8f8c;
+  text-align: center;
+  font-size: 13px;
+  max-width: 600px;
+  position: relative;
+}
+.new:before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: .9px;
+  background: #b8b4b4;
+  margin-left: 25%;
+  top: 50%;
+  position: absolute;
+}
+.new:after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: .9px;
+  background: #b8b4b4;
+  right: 25%;
+  top: 50%;
+  position: absolute;
+}
+.create {
+  position: center;
+  margin-top: 1%;
+  margin-left: 36%;
+  width: 34%;
+  height: 30px;
+}
+
+.aftercreate {
+  margin-bottom: 5%;
+}
+
+.forgotpswrd {
+  float: right;
+}
+
+.conds{
+  float: left;
+  margin-left: 40%
+}
+
+.privpol{
+  float: center;
+}
+
+.help{
+  float: right;
+  margin-right: 40%;
+}
